@@ -47,7 +47,7 @@ function About() {
           </div>
         </div>
         <div
-          className="lg:w-[40vw] w-screen"
+          className="lg:w-[40vw] flex items-center justify-center"
           data-aos="fade-top"
           data-aos-easing="ease-in"
           data-aos-delay="300"
@@ -64,7 +64,7 @@ function About() {
             // src="https://i.pinimg.com/originals/6c/43/f2/6c43f219c30ef9799c70a95471f2a836.gif"
             // src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif"
             alt="about"
-            className="lg:w-[40vw] lg:h-[50vh] w-screen"
+            className="lg:w-[40vw] text-center lg:h-[50vh] w-[50%]"
           />
         </div>
       </div>

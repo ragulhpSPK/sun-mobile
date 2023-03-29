@@ -48,7 +48,7 @@ function HomePage() {
                   </div>
                 </motion.div>
                 <motion.div
-                  className=" m-auto w-screen lg:w-[35vw]  lg:pr-20"
+                  className=" m-auto w-screen lg:w-[35vw]  lg:pr-20 "
                   initial={{ opacity: 0, y: -100 }}
                   animate={{ opacity: 1, y: 0 }}
                   onHoverStart={() => console.log("starts")}
@@ -61,11 +61,11 @@ function HomePage() {
                   }}
                   exit={{ opacity: 0, y: "-100vh" }}
                 >
-                  <div>
+                  <div className="flex items-center justify-center">
                     <img
                       src={data.img}
                       alt="not found"
-                      className="lg:w-[30vw] w-[100vw]"
+                      className="lg:w-[30vw] w-[50%]"
                     />
                   </div>
                 </motion.div>
