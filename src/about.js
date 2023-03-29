@@ -16,7 +16,7 @@ function About() {
             data-aos-offset="0"
             data-aos-duration="1000"
           >
-            <h1 className="text-[#99005e] text-xl">About Us</h1>
+            <h1 className="text-[#82237c] text-xl">About Us</h1>
           </div>
           <div
             className="flex flex-col text-lg"
@@ -56,13 +56,14 @@ function About() {
         >
           <img
             // src="https://cdn.dribbble.com/users/1602563/screenshots/8869646/media/ddc33ce2c8e2570c410123f375e2c35c.gif"
-            src="https://i.pinimg.com/originals/50/78/a0/5078a05eb1b6847d93383eaa4c0ed500.gif"
+            // src="https://i.pinimg.com/originals/50/78/a0/5078a05eb1b6847d93383eaa4c0ed500.gif"
             // src="https://i.pinimg.com/originals/8d/b8/e6/8db8e6f39203f657ee8efad634cacad1.gif"
             // src="https://i.pinimg.com/originals/a2/9d/a9/a29da9f5445172a22699934407c008ad.gif"
             // src="https://i.pinimg.com/originals/f0/f5/cd/f0f5cd7a0626dffffea966b2528868e2.gif"
             // src="https://i.pinimg.com/originals/18/0e/28/180e281028803011eccf1254c33f2e8f.gif"
             // src="https://i.pinimg.com/originals/6c/43/f2/6c43f219c30ef9799c70a95471f2a836.gif"
             // src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif"
+            src="https://webbuildinfotech.com/wp-content/uploads/2022/07/web-development-gif.gif"
             alt="about"
             className="lg:w-[40vw] text-center lg:h-[50vh] w-[50%]"
           />

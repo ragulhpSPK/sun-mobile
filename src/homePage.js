@@ -35,14 +35,14 @@ function HomePage() {
                   }}
                   exit={{ opacity: 0 }}
                 >
-                  <div className=" lg:text-5xl text-md font-semibold p-5 text-[#99005e]">
+                  <div className=" lg:text-5xl text-md font-semibold p-5 text-[#82237c]">
                     <p>{data.name}</p>
                   </div>
                   <div className=" p-5 text-md lg:text-2xl lg:w-[35vw] line leading-9">
                     {data.describe}
                   </div>
                   <div>
-                    <button className="b-white shadow-xl  h-[5vh] lg:w-[9vw] ml-5 text-sm lg:text-2xl rounded-md font-semibold text-[#99005e] hover:scale-110 duration-1000 hover:rounded-full hover:pt-2 hover:pb-2">
+                    <button className="b-white shadow-xl h-[4vh] w-[24vw] lg:h-[5vh] lg:w-[9vw] ml-5 text-sm lg:text-2xl rounded-md font-semibold bg-[#82237c] text-[white] hover:scale-110 duration-1000 hover:rounded-full hover:pt-2 hover:pb-2">
                       Explore Now
                     </button>
                   </div>
